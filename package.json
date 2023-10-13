@@ -1,0 +1,25 @@
+{
+  "name": "storeapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shivamgutgutia2002/storeAPI.git"
+  },
+  "author": "Shivam Gutgutia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shivamgutgutia2002/storeAPI/issues"
+  },
+  "homepage": "https://github.com/shivamgutgutia2002/storeAPI#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.6.1",
+    "nodemon": "^3.0.1"
+  }
+}
