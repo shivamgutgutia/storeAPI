@@ -1,5 +1,3 @@
-
-
 const getProduct =async (req,res)=>{
     res.send("Hello world")
 }

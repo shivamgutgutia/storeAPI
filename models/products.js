@@ -29,7 +29,7 @@ const productSchema = new mongoose.Schema({
     company:{
         type:String,
         enum:{
-            values:["ikea","Liddy","caressa","marcos",""],
+            values:["ikea","liddy","caressa","marcos",""],
             message:"Please enter a valid value"
         }
     }
