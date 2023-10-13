@@ -1,9 +1,15 @@
 require("dotenv").config()
 const connectDB = require("./db/connect")
 const express = require("express")
+const products = require("./routers/products")
+const notFound = require("./middleware/not-found")
+const errorHandler=require("./middleware/error-handler")
 
 const app=express()
 app.use(express.json())
+app.use("/api/v1/products",products)
+app.use(notFound)
+app.use(errorHandler)
 
 const port = process.env.PORT ||3000
 
