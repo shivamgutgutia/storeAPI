@@ -4,6 +4,7 @@ const express = require("express")
 const products = require("./routers/products")
 const notFound = require("./middleware/not-found")
 const errorHandler=require("./middleware/error-handler")
+require("express-async-errors")
 
 const app=express()
 app.use(express.json())
