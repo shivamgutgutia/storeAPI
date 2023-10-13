@@ -11,7 +11,7 @@ const productSchema = new mongoose.Schema({
         required:[true,"Please enter a product price"]
     },
 
-    features:{
+    featured:{
         type:Boolean,
         default:false
     },
